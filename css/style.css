@@ -1,0 +1,59 @@
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+header{
+	background: #fcdb00;
+	padding: 10px 0px;
+}
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    padding: 40px 0px;
+}
+.menu ul li a{
+	font-weight: 700;
+	font-size: 22px;
+	padding: 0px 35px !important;
+	color: #010101 !important;
+	transition: .5s;
+
+}
+.menu ul li:last-child a{
+	padding-right: 0px !important;
+}
+.menu ul li a:hover{
+	color: white !important;
+}
+.slider{
+
+	background:#fcdb00;
+}
+.inspire {
+    margin-top: 143px;
+}
+.inspire h2 {
+    margin: 40px 0px;
+}
+.apple-icon li i{
+	font-size: 30px;
+	margin: 0px 20px;
+	margin-left: 0px;
+}
+.mobile{
+	padding-top: 40px;
+}
+.carousel-indicators li {
+    border-radius: 50%;
+    position: relative;
+   flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: rgba(255,255,255,.5);
+}
+.carousel-indicators .active {
+    background-color: green;
+}
